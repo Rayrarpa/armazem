@@ -1,5 +1,49 @@
 .productL {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
   background-color: #141414;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.productL .product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10rem;
+}
+.productL .product .p1 {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.productL .product .p1 .productT {
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+.productL .product .p1 .productI {
+  font-size: 18px;
+}
+.productL .product .p2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 20px;
+  gap: 20px;
+}
+.productL .product .p2 .btn {
+  height: 100%;
+  width: 5rem;
+}
+.productL .product .p2 .btn:hover {
+  cursor: pointer;
+  background-color: #d4d4d4;
+}
+.productL hr {
+  width: 100%;
+  height: 2px;
+  background-color: black;
 }
 
 /*# sourceMappingURL=listing.css.map */

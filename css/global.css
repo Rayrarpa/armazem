@@ -16,6 +16,10 @@ body {
   color: white;
 }
 
+ul, ol, li {
+  list-style: none;
+}
+
 .container {
   display: flex;
   justify-content: center;
