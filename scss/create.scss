@@ -37,3 +37,14 @@
         background-color: variables.$backgroundB;
     }
 }
+
+a {
+    background-color: variables.$backgroundC;
+
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 20px;
+    margin-top: 2rem;
+}
